@@ -39,7 +39,7 @@ const BANNERS = {
             gradient1: 'rgba(58, 107, 76, 0.85)',
             gradient2: 'rgba(45, 90, 61, 0.9)'
         },
-        background: "Images/interface_1.jpg",
+        background: "Images/Interface_1.jpg",
         items: {
             legendary: [
                 { name: 'Dragon Blade', icon: '🗡️', rarity: 'legendary' },
@@ -1342,5 +1342,6 @@ document.querySelectorAll('.action-button, .nav-button').forEach(button => {
 console.log('🎮 Gacha system initialized');
 console.log('📍 Current banner:', bannerManager.currentBanner);
 console.log('⚡ Available energy:', energySystem.getAvailableEnergy(), 'hours');
+
 
 
